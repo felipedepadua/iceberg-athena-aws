@@ -14,7 +14,8 @@ The repo is to supplement the [youtube video](https://youtu.be/iGvj1gjbwl0) on I
 
 ## Set up
 
-1. Run the cloud formation template. This will create; (PS: You can skip this and do it manually if you want)
+(PS: You can skip this and do it manually if you want)
+1. Run the cloud formation template. This will create:
 - The S3 bucket
 - Glue database
 - Athena work group (PS: I think this is no longer needed!? Athena should now have a default `primary` workgroup)
